@@ -30,6 +30,15 @@
     background: transparent;
 }
 
+#promesa{
+    position: fixed;
+    top: 20%;
+    right: 10%;
+    width: 15rem;
+    height: auto;
+    background: transparent;
+}
+
 #beso{
     position: fixed;
     bottom: 7%;
@@ -66,6 +75,15 @@
     height: 100vh;
 }
 
+.background-5{
+    background-image: url('../MEDIA/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
 #anita{
     position: fixed;
     bottom: 5%;
@@ -94,7 +112,7 @@
     position: fixed;
     bottom: 20%;
     left: 40%;
-    width: 12rem;
+    width: 15rem;
     height: auto;
 }
 
@@ -102,14 +120,30 @@
     position: fixed;
     top: 10%;
     right: 10%;
-    width: 20rem;
+    width: 30rem;
+    height: auto;
+}
+
+#tarjeta4{
+    position: fixed;
+    bottom: 8%;
+    left: 10%;
+    width: 14rem;
+    height: auto;
+}
+
+#tarjeta5{
+    position: fixed;
+    top: 10%;
+    right: 15%;
+    width: 12rem;
     height: auto;
 }
 
 #love{
     position: fixed;
-    bottom: 10%;
-    left: 10%;
+    top: 10%;
+    left: 40%;
     width: 12rem;
     height: auto;
 }
@@ -118,7 +152,7 @@
     position: fixed;
     top: 10%;
     left: 10%;
-    width: 20rem;
+    width: 30rem;
     height: auto;
 }
 
@@ -126,7 +160,25 @@
     position: fixed;
     bottom: 10%;
     left: 10%;
+    pointer-events: none;
     
+}
+
+#delfines{
+    position: fixed;
+    bottom: 15%;
+    left: 10%;
+    
+    
+}
+
+
+#siempre{
+    position: fixed;
+    top: 30%;
+    right: 40%;
+    width: 50;
+    height: auto;
 }
 
 h1{
@@ -187,4 +239,36 @@ h1{
     position: fixed;
     bottom: 10%;
     left: 5%;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 100vh;
+    width: 100%;
+}
+
+.grilla img{
+    width: 65%
+}
+
+.grilla div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grilla a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.boton{
+    position: absolute;
+    padding: 1rem;
+    right: 5%;
+    top: 5%;
+    background-color:chocolate;
 }

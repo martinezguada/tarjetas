@@ -9,11 +9,19 @@
 
     <!-- MIS DOCUMENTOS -->
     <link rel="stylesheet" href="CSS/styles.css">
-
+    <script type="text/javascript">
+        function closeCurrentTab() {
+            var conf = confirm("¿Estás seguro que queres salir?");
+            if (conf == true) {
+                close();
+            }
+        }
+    </script>
+    
 </head>
 
 <body>
-
+    <input class="boton" type="button" value="X" onclick="closeCurrentTab()">
     <div class="background">
         <ul class="gatoo">
             <a href="pagina2.html">
